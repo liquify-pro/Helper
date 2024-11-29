@@ -495,3 +495,93 @@ const liquidOptions = [
     "template.suffix",
     "money_with_currency"
   ];
+
+
+  const alpineOptions = [
+    'x-data',
+    'x-bind',
+    'x-on',
+    'x-model',
+    'x-show',
+    'x-if',
+    'x-for',
+    'x-transition',
+    'x-ref',
+    'x-cloak',
+    'x-init',
+    'x-effect',
+    'x-text',
+    'x-html',
+    'x-teleport',
+    '@click',
+    '@submit',
+    '@change',
+    '@input',
+    '@keyup',
+    '@keydown',
+    '@focus',
+    '@blur',
+    ':class',
+    ':style',
+    ':value',
+    ':disabled',
+    ':required',
+    ':id',
+    ':name'
+  ];
+  
+  const liquifyOptions = [
+    'li-settings',
+    'li-object',
+    'li-for',
+    'li-if',
+    'li-element',
+    'li-unless',
+    'li-tag',
+    'li-form',
+    'li-section',
+    'li-block',
+    'li-page',
+    'li-attribute',
+    'li-content-for-layout',
+    'li-paginate',
+    'li-snippet',
+    'li-case',
+    'li-when',
+  ];
+  
+  const liquifySettingsOptions = [
+    'text',
+    'image',
+    'url',
+    'textarea',
+    'checkbox',
+    'html',
+    'blog',
+    'collection',
+    'product',
+    'article',
+    'richtext',
+    'custom',
+  ];
+
+  const liquifyObjectOptions = [
+    'text',
+    'src',
+    'href',
+    'class',
+    'name',
+    'value',
+    'placeholder',
+    'width',
+    'height',
+    'alt',
+  ];
+
+  const liElementsOption = ['product-variant-container', 'add-to-cart', 'add-to-cart-quantity', 'product-options-loop', 'product-options-name', 'product-option-loop', 'product-option-input', 'product-option-name', 'direct-add-to-cart', 'mini-cart-toggle', 'mini-cart-item-count', 'mini-cart-empty', 'mini-cart', 'mini-cart-container', 'mini-cart-full', 'mini-cart-item', 'mini-cart-item-increase', 'mini-cart-item-decrease', 'mini-cart-item-remove', 'mini-cart-item-quantity'];
+
+  const liPageOptions = ['blog', 'article', 'collection', 'categories', 'product', 'cart', 'gift-card', 'account', 'login', 'register', 'activate', 'reset', 'order', 'adresses', '404', 'password', 'search', 'remove', 'giftcard', 'addresses', 'page'];
+
+  const liAttributeOptions = ['text', 'src', 'href', 'class', 'name', 'value', 'placeholder', 'width', 'height', 'alt', 'style', 'id', 'data', 'aria', 'role', 'liquid'];
+
+  const liSnippetOptions = ['product', 'collection', 'blog', 'article'];
